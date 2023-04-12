@@ -6,8 +6,8 @@
 
 This application is a Note Taker. Within the program you may find the ability to take and record notes.
 
-[Image of in-browser application landing page](./public/assets/images/cuddly-enigma.herokuapp.com_.png)\
-[Image of in-browser application on note-taking page](<./public/assets/images/cuddly-enigma.herokuapp.com_notes%20(2).png>)
+![Image of in-browser application landing page](./public/assets/images/cuddly-enigma.herokuapp.com_.png)\
+![Image of in-browser application on note-taking page](<./public/assets/images/cuddly-enigma.herokuapp.com_notes%20(2).png>)
 
 ## Table of Contents
 
@@ -23,7 +23,10 @@ This application is a Note Taker. Within the program you may find the ability to
 
 N/A - In Browser Application
 
-[Image of in-browser application recalling previous note](./public/assets/images/cuddly-enigma.herokuapp.com_notes.png)
+Application Link:\
+https://cuddly-enigma.herokuapp.com/
+
+![Image of in-browser application recalling previous note](./public/assets/images/cuddly-enigma.herokuapp.com_notes.png)
 
 ## Usage
 
@@ -74,7 +77,7 @@ This application features a Note Taker that utilizes Express.js.
 ## How to Contribute
 
 Contributors may fork the repository using the given link and create a Pull Request. There are no limitations on what someone may modify or use.
-https://github.com/shaboon/expert-tribble.git
+https://github.com/shaboon/cuddly-enigma.git
 
 ## Tests
 
