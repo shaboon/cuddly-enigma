@@ -8,6 +8,7 @@ notes.get("/", (req, res) => {
   readFromFile("./db/db.json").then((data) => res.json(JSON.parse(data)));
 });
 
+//GET Route for retrieving specific tip via #id
 notes.get("/:id", (req, res) => {
   const noteId = req.params.id;
   readFromFile("./db/db.json")
