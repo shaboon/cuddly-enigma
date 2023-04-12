@@ -36,9 +36,9 @@ notes.post("/", (req, res) => {
   }
 });
 
-notes.delete("/:id", (req, res) => {
-  console.info(`${req.method} request received for note`);
-  readFromFile("./db/db.json").then((data) => res.json(JSON.parse(data)));
-});
+// notes.delete("/:note_id", (req, res) => {
+//   console.info(`${req.method} request received for note`);
+//   readFromFile("./db/db.json").then((data) => res.json(JSON.parse(data)));
+// });
 
 module.exports = notes;
