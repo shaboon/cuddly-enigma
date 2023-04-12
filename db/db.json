@@ -1,1 +1,22 @@
-[{"title":"Test Title","text":"Test text","note_id":"0000"},{"title":"Nwe","text":"Note","note_id":"18f9"},{"title":"New","text":"Note","tip_id":"5ea7"},{"title":"New Note","text":"Wow, Text","tip_id":"2ffa"}]
+[
+    {
+        "title": "Test Title",
+        "text": "Test text",
+        "id": "0000"
+    },
+    {
+        "title": "Nwe",
+        "text": "Note",
+        "id": "18f9"
+    },
+    {
+        "title": "New",
+        "text": "Note",
+        "id": "5ea7"
+    },
+    {
+        "title": "New Note",
+        "text": "Wow, Text",
+        "id": "2ffa"
+    }
+]

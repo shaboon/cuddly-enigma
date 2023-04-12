@@ -9,8 +9,15 @@ notes.get("/", (req, res) => {
 });
 
 notes.get("/:id", (req, res) => {
-  console.info(`${req.method} request received for note`);
-  readFromFile("./db/db.json").then((data) => res.json(JSON.parse(data)));
+  const noteId = req.params.id;
+  readFromFile("./db/db.json")
+    .then((data) => JSON.parse(data))
+    .then((json) => {
+      const result = json.filter((note) => note.id === noteId);
+      return result.length > 0
+        ? res.json(result)
+        : res.json("No note with that ID");
+    });
 });
 
 // POST Route for a new UX/UI tip
@@ -24,7 +31,7 @@ notes.post("/", (req, res) => {
     const newNote = {
       title,
       text,
-      tip_id: uuid(),
+      id: uuid(),
     };
 
     console.log(newNote);
